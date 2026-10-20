@@ -7,10 +7,10 @@ import re
 import subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-EXPECTED_MANIFEST_SHA256 = "77561f8c425605c39485a568d863bcd31bb1fdced79a52fc6cbe3b7174248411"
-EXPECTED_EXPORT_ID = "b98d4cd9201dcf0f7425dc889d89968c7de869c7971269da53480fe457c8fe4c"
+EXPECTED_MANIFEST_SHA256 = "5a3db7a804affa30ff8f43f1dce5cb58736aa125ac9dfbd9900ad6f4ac160544"
+EXPECTED_EXPORT_ID = "bb9bf457203ea6fa2d9880891abeec7a33f10d289d0460c42091d268b4ed5dee"
 APPROVED = [
-    ("governance/engineering-review.md", "9c5d467f81c96364ec596d81b97b360cb8059c8e91f5cd0fcb31ec32bdf11378"),
+    ("governance/engineering-review.md", "a5a0375dbdaaddf1bdb8e05f46a79670940812669d83aae2533389f1afceb8d9"),
     ("governance/security-review.md", "365c4cfe8c288c511a6689c20f24ddf6f3b077333bb2fa3a908b8ceac2ceaff5"),
 ]
 CAPS = {"canonicalVerifier": False, "consumerGates": "repository-owned", "assurance": "content-integrity-only"}
