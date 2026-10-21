@@ -1,6 +1,7 @@
 # Independent Engineering Review Protocol
 
 Version: 1
+Synthetic fixture revision: 2 (non-normative E2E marker; protocol unchanged)
 
 Review the exact proposed change against its current target branch, requirements, tests, ownership boundaries, and integration conflicts. Evaluate correctness, maintainability, compatibility, regression risks, and the authenticity and freshness of cited test evidence.
 
